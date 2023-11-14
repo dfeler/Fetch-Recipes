@@ -16,7 +16,7 @@ Screenshots highlighting the UI including custom list, gridview and navigation.
 
 ## Demo
 
-Check out this video demo of our project:
+Demo of App:
 
 [![Project Demo](https://img.youtube.com/vi/ZiT29Bg53UM/0.jpg)](https://youtu.be/ZiT29Bg53UM)
 
