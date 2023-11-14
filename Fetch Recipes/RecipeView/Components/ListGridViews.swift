@@ -81,7 +81,7 @@ struct RecipeGridCell: View {
             HStack {
                 Text(meal.strMeal)
                     .font(.custom("Lora-Bold", size: 19))
-                    .foregroundColor(Color("textColor"))
+                    .foregroundColor(Color("darktextColor"))
                     .fixedSize(horizontal: false, vertical: true)
                     .lineLimit(2)
                     .frame(height: 45)

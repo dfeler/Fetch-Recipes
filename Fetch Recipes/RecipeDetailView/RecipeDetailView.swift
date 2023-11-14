@@ -161,7 +161,7 @@ struct RecipeDetailView: View {
                     HStack {
                         Text("\(mealDetail.ingredientsAndMeasures.count)")
                             .font(.custom("Lora-Regular", size: 18))
-                            .foregroundColor(Color("textColor"))
+                            .foregroundColor(Color("darktextColor"))
                             .padding([.leading, .trailing], 10)
                             .padding([.top, .bottom], 5)
                             .background(RoundedRectangle(cornerRadius: 10)
@@ -185,7 +185,7 @@ struct RecipeDetailView: View {
                             
                             Text(item.ingredient.capitalized)
                                 .font(.custom("Lora-Bold", size: 18))
-                                .foregroundColor(Color("textColor"))
+                                .foregroundColor(Color("darktextColor"))
                                 .frame(maxWidth: .infinity, alignment: .leading)
                             
                             Text(item.measure)

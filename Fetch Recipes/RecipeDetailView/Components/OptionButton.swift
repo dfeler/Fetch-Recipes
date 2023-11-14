@@ -20,7 +20,7 @@ struct OptionButton: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .foregroundColor(Color("textColor"))
+        .foregroundColor(Color("darktextColor"))
         .background(isSelected ? Color("buttonColor") : Color.clear)
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .pushInEffect()
